@@ -71,7 +71,7 @@ VOGAIS = [("eɪ", "eɪ"), ("oʊ", "oʊ"), ("aɪ", "aɪ"), ("aʊ", "aʊ"), ("ɔɪ
 
 def normaliza(ipa):
     ipa = re.sub(r"\(.*?\)", "", ipa)  # sons opcionais fora
-    return ipa.replace("ː", "").replace(".", "").replace("·", "").replace("t̬", "ɾ").replace("ˌ", "").replace(" ", "")
+    return ipa.replace("ː", "").replace(".", "").replace("·", "").replace("t̬", "ɾ").replace("ˌ", "").replace(" ", "").replace("ɜr", "ɝ").replace("ər", "ɚ").replace("ɜ", "ɝ")
 
 def vogais(ipa):
     s, out, i, forte = normaliza(ipa), [], 0, False
