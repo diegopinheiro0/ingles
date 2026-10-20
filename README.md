@@ -23,3 +23,8 @@ Repositório para expandir o estudo de inglês (foco em pronúncia americana).
    python gerar_pdf.py Guia_Ingles_Pronuncia.xlsx
    ```
 3. Suba a planilha e o PDF atualizados para o repositório.
+
+## Onde conferir a pronúncia
+
+- Cambridge Dictionary (inglês–português, pronúncia US): https://dictionary.cambridge.org/pt/dicionario/ingles-portugues/
+- Youglish (a palavra falada em vídeos reais, opção US): https://youglish.com

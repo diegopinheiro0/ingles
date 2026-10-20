@@ -60,5 +60,6 @@ se a Legenda mudar, atualize aqui também.
 ## IPA
 
 - Padrão Cambridge Dictionary, opção **US**, sem as barras (o PDF acrescenta).
+  Consulta: https://dictionary.cambridge.org/pt/dicionario/ingles-portugues/<palavra> (ex.: https://dictionary.cambridge.org/pt/dicionario/ingles-portugues/chocolate).
 - Use ɚ/ɝ para R vocálico, ɾ para o T/D entre vogais, ʔ para o T preso.
 - Na dúvida sobre uma palavra, diga que precisa de confirmação no Cambridge/Youglish. Não chute.

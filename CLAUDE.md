@@ -3,6 +3,14 @@
 Objetivo: pronunciar corretamente em **inglês americano**. O guia cresce com conteúdo que o Diego
 encontra na internet. As mesmas regras estão na skill `guia-pronuncia` (repositório `skills`).
 
+## Consulta de pronúncia
+
+Referência oficial do guia: **Cambridge Dictionary** — https://dictionary.cambridge.org/pt/dicionario/ingles-portugues/
+(página da palavra: `https://dictionary.cambridge.org/pt/dicionario/ingles-portugues/<palavra>`, ex.: `https://dictionary.cambridge.org/pt/dicionario/ingles-portugues/chocolate`). Usar sempre a pronúncia **US**
+(ícone "US" na página). Consultar antes de incluir palavra nova e sempre que uma fonte
+(post, vídeo) divergir do guia. Sem acesso ao site, dizer que não foi possível conferir.
+Áudio em contexto real: Youglish (https://youglish.com, opção US).
+
 ## Regras
 
 - `Guia_Ingles_Pronuncia.xlsx` é a fonte única. O PDF é sempre gerado dela; nunca editar o PDF.
