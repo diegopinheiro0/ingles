@@ -40,6 +40,8 @@ def checa_pron(onde, pron):
     principal = pron_principal(pron)
     if re.search(r"(^|[-\s])U[ÓÁÉÊ]", principal):
         avisos.append(f"{onde}: 'U' + vogal parece W escrito como U (use W): '{pron}'")
+    if re.search(r"[óÓ](?![-\s]?[rR])(?![iI])", principal):
+        erros.append(f"{onde}: 'ó' sem R depois; o guia usa 'á' (law LÁ, thought THÁT). 'ó' só em ór e ói: '{pron}'")
     if re.search(r"(^|[-\s])IU", principal, re.I):
         avisos.append(f"{onde}: 'IU' parece Y escrito como I (use YUU/yuu): '{pron}'")
     silabas = [s for s in re.split(r"[-\s]", principal) if s]

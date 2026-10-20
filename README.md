@@ -10,6 +10,7 @@ Repositório para expandir o estudo de inglês (foco em pronúncia americana).
 | `Guia_Ingles_Pronuncia.pdf` | Guia para ler e imprimir, gerado a partir da planilha. |
 | `gerar_pdf.py` | Script que gera o PDF a partir da planilha. |
 | `validar.py` | Confere a planilha (notação, IPA, duplicadas) antes de gerar o PDF. |
+| `cambridge.py` | Consulta o IPA americano no Cambridge e confere a planilha inteira. |
 | `adicionar.py` | Acrescenta linhas aprovadas à planilha a partir de um JSON. |
 | `NOTACAO.md` | Regras da notação de pronúncia. |
 | `CLAUDE.md` | Instruções para o Claude manter o guia. |

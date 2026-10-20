@@ -12,8 +12,9 @@ se a Legenda mudar, atualize aqui também.
 | ii | i | I longo, lábios esticados | sheep = SHIIP · need = NIID |
 | é | ɛ | É de "pé" | bed = BÉD |
 | æ / Æ | æ | Boca aberta de "á", falando "é" | bad = BÆD · cat = KÆT |
-| á / Á | ɑ | Á bem aberto, do fundo (hot, doctor, problem, calm) | hot = HÁT · doctor = DÁK-târ |
-| ó / Ó | ɔ | Ó de "avó" (law, thought, talk, AU/AW) | law = LÓ · thought = THÓT |
+| á / Á | ɑ | Á bem aberto, do fundo: hot, doctor, calm **e também** law, thought, talk, walk, because, chocolate (Cambridge US) | hot = HÁT · law = LÁ · thought = THÁT |
+| ór | ɔr | Ó de "avó", **só antes de R** | more = MÓR · four = FÓR |
+| i (átono no fim) | i | I curto e leve no fim da palavra, mesmo com /i/ no IPA | city = SI-ɾi · family = FÆM-li |
 | â / Â | ə / ʌ | Minúsculo = schwa átono; maiúsculo = som de cup | about = â-BÁUT · cup = KÂP |
 | u | ʊ | U curto e relaxado | book = BUK · good = GUD |
 | uu | u | U longo, lábios em bico | food = FUUD · two = TUU |
@@ -27,7 +28,7 @@ se a Legenda mudar, atualize aqui também.
 | h | h | Sopro (R de "rato" no Rio) | house = HÁUS |
 | sh · tch | ʃ · tʃ | ch de chuva · tch de tchau | she = SHII · church = TCHÂRTCH |
 | j · dj | ʒ · dʒ | j de "já" · dj de "adjetivo" | measure = MÉ-jâr · job = DJÁB |
-| w · y | w · j | "u" rápido · "i" rápido | walk = WÓK · yes = YÉS |
+| w · y | w · j | "u" rápido · "i" rápido | walk = WÁK · yes = YÉS |
 | n · ng · m | n · ŋ · m | Sempre articulados: ponta da língua · fundo da língua (sem soltar G) · lábios | sin = SIN · sing = SING · sum = SÂM |
 | l (fim de sílaba) | ɫ | L escuro: a língua toca, não vira "u". Finais -LE/-AL = "âl" | feel = FIIL · people = PII-pâl |
 
@@ -37,9 +38,9 @@ se a Legenda mudar, atualize aqui também.
 |---|---|---|
 | ã, õ, ĩ, "-ĩn" | Vogal nasal não existe em inglês | "ân", "ing" |
 | í, ú com acento para vogal | Não distingue curto × longo | i / ii, u / uu |
-| "UÓ", "UÁ", "UÉ" para W | "u" vira vogal e conflita com u/uu | WÓK, WÁTCHT, WÉNZ-dêi |
+| "UÓ", "UÁ", "UÉ" para W | "u" vira vogal e conflita com u/uu | WÁK, WÁTCHT, WÉNZ-dêi |
 | "IU" para Y | Idem | PYUU, KYUU, yuu-NIIK |
-| "ó" para o som de hot/doctor/college | É britânico | á: HÁT, DÁK-târ, KÁ-lidj |
+| "ó" sem R depois (hot, law, thought, chocolate) | O guia segue o Cambridge US: esse som é ɑ | á: HÁT, LÁ, THÁT, TCHÁK-lât. "ó" só em ór (MÓR) e ói (PÓINT) |
 | "r" para o T entre vogais | Confunde com o R americano | ɾ: BÉ-ɾâr |
 | "j" para o som de job/age/college | j é o som de measure | dj: DJÁB, ÊIDJ, KÁ-lidj |
 | "ôl" para L final | Padronizado em "âl" | LI-ɾâl, Æ-nâ-mâl |
@@ -49,15 +50,19 @@ se a Legenda mudar, atualize aqui também.
 
 | Errado | Certo | Motivo |
 |---|---|---|
-| working = UÓR-king | WÂR-king | work tem o som de bird (âr); "UÓ" é walk |
+| working = UÓR-king | WÂR-king | work tem o som de bird (âr); walk é WÁK |
 | wanted = UÓN-rid | WÁN-tid (rápido: WÁ-nid) | Depois de N o T não vira ɾ |
 | opportunity = ó-pâr-TCHÚ-nâ-ri | á-pâr-TUU-nâ-ɾi | "tchú" é britânico |
 | creative = kri-Ê-riv | kri-ÊI-ɾiv | Ditongo êi |
 | -TURE: exceções secure, pure, cure | Só mature | secure, pure e cure não terminam em -ture |
 | -ING = ĩn (nasal) | ing (NG, sem soltar o G) | Inglês articula a consoante |
 | recept, buiscuit | receipt, biscuit | Conferir grafia no Cambridge |
+| chocolate = TCHÓK-lât (e outras 25 com "ó": thought, talk, walk, because…) | TCHÁK-lât, THÁT, TÁK, WÁK, bi-KÁZ | O Cambridge US usa ɑ; o guia seguia o CMU (ɔ). Decisão de out/2026: seguir o Cambridge US em tudo |
 
-## IPA
+## IPA e conferência
+
+- Sempre conferir no Cambridge US antes de incluir: `python cambridge.py palavra` (ou o site). Depois de qualquer rodada, `python cambridge.py --conferir Guia_Ingles_Pronuncia.xlsx` e tratar cada divergência.
+- Fonte (post, vídeo, CMU) que divergir do Cambridge US: vale o Cambridge US.
 
 - Padrão Cambridge Dictionary, opção **US**, sem as barras (o PDF acrescenta).
   Consulta: https://dictionary.cambridge.org/pt/dicionario/ingles-portugues/<palavra> (ex.: https://dictionary.cambridge.org/pt/dicionario/ingles-portugues/chocolate).

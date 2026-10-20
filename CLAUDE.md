@@ -8,7 +8,7 @@ encontra na internet. As mesmas regras estão na skill `guia-pronuncia` (reposit
 Referência oficial do guia: **Cambridge Dictionary** — https://dictionary.cambridge.org/pt/dicionario/ingles-portugues/
 (página da palavra: `https://dictionary.cambridge.org/pt/dicionario/ingles-portugues/<palavra>`, ex.: `https://dictionary.cambridge.org/pt/dicionario/ingles-portugues/chocolate`). Usar sempre a pronúncia **US**
 (ícone "US" na página). Consultar antes de incluir palavra nova e sempre que uma fonte
-(post, vídeo) divergir do guia. Sem acesso ao site, dizer que não foi possível conferir.
+(post, vídeo) divergir do guia. Consulta rápida: `python cambridge.py palavra`. Sem acesso ao site, dizer que não foi possível conferir.
 Áudio em contexto real: Youglish (https://youglish.com, opção US).
 
 ## Regras
@@ -27,6 +27,7 @@ Referência oficial do guia: **Cambridge Dictionary** — https://dictionary.cam
 pip install -r requirements.txt
 python adicionar.py Guia_Ingles_Pronuncia.xlsx novos.json   # formato no topo do script
 python validar.py Guia_Ingles_Pronuncia.xlsx                # zero erros antes de seguir
+python cambridge.py --conferir Guia_Ingles_Pronuncia.xlsx   # divergências com o Cambridge US
 python gerar_pdf.py Guia_Ingles_Pronuncia.xlsx
 ```
 
